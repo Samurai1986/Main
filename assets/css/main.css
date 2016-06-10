@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background-color: #fff;
+	font-family: arial;
+	width: 100%;
+}
+header {
+	background-color: #b3b3b3;
+	width: 100%;
+}
+header a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fff;
+}
+header a:hover{
+	background-color: darkgray;
+}
+
+.lmenu {
+	float: left;
+	background-color: #b3b3b3;
+	width: 25%;
+	height:100%;
+	margin-right: 10px;
+	display: block;
+}
+.lmenu a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;	
+}
+.lmenu h1{
+	color: #fff;
+	padding: 10px 20px;	
+}
+.lmenu a:hover{
+	background-color: darkgray;
+}
+.contentblock {
+	display:block;
+	margin: 10px;
+}
